@@ -4,8 +4,8 @@ services:
   app:
     user: "${USER_ID:-1000}"
     hostname: "${HOST_NAME:-arun}"
-    image: cybulde-template
-    container_name: cybulde-template-container
+    image: cybulde-model-training
+    container_name: cybulde-model-training-container
     build:
       context: .
       dockerfile: ./docker/Dockerfile
